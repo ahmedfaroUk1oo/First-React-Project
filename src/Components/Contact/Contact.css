@@ -1,0 +1,18 @@
+#line {
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+}
+
+label {
+    top: 50px;
+    z-index: -100;
+    transition: .5s top ;
+}
+
+.col-md-6 .btn ,.col-md-6 .btn:hover  {
+    background-color: #1ABC9C;
+}
+
+
+

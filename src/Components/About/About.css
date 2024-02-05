@@ -1,0 +1,10 @@
+#about {
+    background-color: #1ABC9C;
+    min-height: 75vh;
+}
+
+#line {
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+}

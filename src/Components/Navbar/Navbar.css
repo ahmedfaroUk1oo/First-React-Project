@@ -1,0 +1,36 @@
+:root {
+    --main-color : #1ABC9C;
+}
+
+nav {
+    background-color: #2C3E50;
+    transition: .5s all;
+    z-index: 1000;
+}
+
+.padding {
+    padding: 2rem !important;
+}
+
+.navbar-scroll {
+    padding: 1rem !important ;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px;
+
+}
+
+a.active ,.active{
+    background-color:  var(--main-color);
+    transition: .5s all;
+}
+
+#navbarsExample09 ,.custom-toggler ,.navbar-nav{
+    transition: .5s all;  
+} 

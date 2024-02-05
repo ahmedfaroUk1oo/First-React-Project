@@ -1,0 +1,31 @@
+#line {
+    width: 100px;
+    height: 10px;
+    display: inline-block;
+}
+
+.img-section  {
+    cursor: pointer;
+}
+
+.layout {
+    background-color: rgba(26, 188, 156,.8);
+    opacity: 0;
+    transition: .5s opacity ;
+}
+
+.layout i {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.img-section:hover .layout {
+    opacity: 1;
+}
+
+#slide {
+    background-color: rgba(43, 72, 112,.4);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
