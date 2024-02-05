@@ -12,6 +12,7 @@ function App() {
   let routes = createBrowserRouter ([
     {path : '' ,element : <Layout/> , children :[
       {index : true , element :  < Home />},
+      {path : 'first-react-project' , element : <Home />},
       {path : 'about' , element : <About />},
       {path : 'portfolio' , element : <Portfolio />} ,
       {path : 'contact' , element : <Contact/>},
